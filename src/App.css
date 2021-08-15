@@ -1,38 +1,182 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+}
+
+.home {
+  padding-top: 100px;
+}
+.home h1 {
+  background: #8e0e00;
+
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 700;
+  font-size: 3.5rem;
   text-align: center;
 }
+/* fallback for old browsers */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+  text-align: center;
+  --footer-width: 50%;
+  position: absolute;
+  bottom: 3%;
+  width: var(--footer-width);
+
+  left: calc(50% - var(--footer-width) / 2);
+}
+.finger-box {
+  text-align: center;
+  --footer-width: 50%;
+  position: absolute;
+  bottom: 3%;
+  width: var(--footer-width);
+
+  left: calc(50% - var(--footer-width) / 2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.social h1 {
+  background: #8e0e00;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+.social {
+  padding-top: 200px;
+  min-height: 70vh;
+}
+.social a {
+  color: #8e0e00;
+  font-size: 3.5rem;
+  padding: 30px;
+}
+.social a:hover {
+  color: #5e18eb;
+}
+.work-expreince {
+  padding-top: 5px;
+}
+.work-expreince h1 {
+  background: #8e0e00;
+
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  padding-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+.work-expreince-card {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+  background: #8e0e00;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+.about {
+  padding-top: 100px;
+}
+.about h1 {
+  background: #8e0e00;
+
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+.about p {
+  background: #8e0e00;
+  padding-top: 100px;
+
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 790px) {
+  .home {
+    padding-top: 50px;
   }
 }
