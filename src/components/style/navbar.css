@@ -108,9 +108,11 @@ span {
 
   .left-icon {
     bottom: -20px;
+    z-index: 3;
   }
 
   .right-icon {
     bottom: -20px;
+    z-index: 3;
   }
 }

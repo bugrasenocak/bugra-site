@@ -1,3 +1,10 @@
 #root {
   height: 100vh;
 }
+
+@media screen and (max-width: 790px) {
+  #root {
+    max-height: 100vh;
+    height: 100vh;
+  }
+}
