@@ -20,9 +20,6 @@ function App() {
           <Route path="/work-experience" component={WorkExpreince} />
           <Route path="/social" component={Social} />
         </Switch>
-        <div className={'finger-box'}>
-          <IoIcons.IoMdFingerPrint className="menu-bars-icon m-2 display-6" />
-        </div>
         <Footer />
       </Router>
     </>

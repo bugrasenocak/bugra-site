@@ -36,20 +36,14 @@ body {
 .footer {
   text-align: center;
   --footer-width: 50%;
-  position: absolute;
-  bottom: 3%;
-  width: var(--footer-width);
-
-  left: calc(50% - var(--footer-width) / 2);
+  position: relative;
+  bottom: -15%;
+  width: 100%;
+  overflow: hidden;
 }
-.finger-box {
-  text-align: center;
-  --footer-width: 50%;
-  position: absolute;
-  bottom: 3%;
-  width: var(--footer-width);
 
-  left: calc(50% - var(--footer-width) / 2);
+.footer-logo {
+  width: 200px;
 }
 
 .social h1 {
