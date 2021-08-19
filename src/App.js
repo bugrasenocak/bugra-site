@@ -7,8 +7,6 @@ import Home from './components/Home';
 import About from './components/About';
 import Footer from './components/Footer';
 
-import * as IoIcons from 'react-icons/io';
-
 function App() {
   return (
     <>
